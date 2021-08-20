@@ -16,13 +16,14 @@ import {
    useDeviceOrientation,
 } from '@react-native-community/hooks'
 import WelcomeScreen from './app/screen/WelcomeScreen';
+import ViewImageScreen from './app/screen/ViewImageScreen'
 
 export default function App() {
   // const handlePress = () => console.log("Text pressed");
   // const {landscape} = useDeviceOrientation()
 
 
-  return <WelcomeScreen />
+  return <ViewImageScreen />
     // <SafeAreaView style={styles.container}>
     //   <View style={{
     //     backgroundColor: '#fff',
